@@ -2,7 +2,7 @@ from typing import Dict, List
 
 def create_usernames(data: Dict[str, List]) -> Dict[str, List]:
     """
-    Generuje slovník obsahující aktivní studenty a jejich unikátní uživatelská jména.
+    Generuje seznam obsahující aktivní studenty a generuje jejich unikátní uživatelská jména.
 
     Args:
         data (dict): Slovník obsahující:
